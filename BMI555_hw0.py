@@ -1,3 +1,7 @@
+# code review by Yuxin Wu BMI 500, my comments begin with YW
+
+# YW: below shows the content of a specific task, the block code is self explainable, easy to understand
+
 ####1. Write a code that prints the numbers from 0 to 100, with the following conditions:
 ##### If the number is divisible by 3, print the string 'a' instead of the number.
 ###### If the number is divisible by 5, print the string 'b' instead of the number.
@@ -11,6 +15,10 @@ for i in range(101):
         print('b')
     else:
         print(i)
+
+
+# YW: for this task, the coder make comments for some lines which are diffult to understand
+# which is great!
 
 ####2. Created a 3x3 2D array filled with random integers between 1 and 10 (inclusive)
 #####Calculate and print the sum of each row
@@ -45,6 +53,7 @@ def is_fibonacci(x):
         a, b = b, a + b
     return False
 
+# YW: just considering if the codes above can be defined into a function would be better.
 
 #####4.Write a program that:
 ######Allows the user to provide a source folder, a destination folder, and a filename string
